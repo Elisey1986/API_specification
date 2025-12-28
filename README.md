@@ -465,7 +465,7 @@ paths:
         '500':
           $ref: '#/components/responses/InternalServerError'
 
-  # ========== WEBHOOKS ENDPOINTS ==========
+  # ========== События ==========
   /webhooks/robot-status:
     post:
       tags: [События]
